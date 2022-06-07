@@ -7,8 +7,9 @@ class StoryForm(ModelForm):
         model = NewsStory
         fields = ['title', 'pub_date', 'content']
 
-widgets = {
-    'pub_date': forms.DateInput(format=('%m/%d/%Y'),
-attrs={'class':'form-control', 'placeholder':'Select a date',
-'type':'date'}),
-    }
+        widgets = {
+            'title': forms.TextInput(attrs={'class':'form-control', 'placeholder':'Input the title here'}),
+            'pub_date': forms.DateInput(format=('%m/%d/%Y'), attrs={'class':'form-control', 'placeholder':'Select a date','type':'date'}),
+            'content': forms.TextInput(attrs={'class':'form-control', 'placeholder':'Input the title here'})
+        }
+
