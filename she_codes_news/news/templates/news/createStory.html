@@ -10,6 +10,7 @@
 {% block content %} 
 <!-- link to the block content part (like a container) in the base html  -->
 
+{% if request.user.is_authenticated %}
 <div class="form-group"></div>
     <form action="" method="post" class="create-story-form">
         {% csrf_token %} 
@@ -19,5 +20,8 @@
         <input type="submit" value="Submit" class="create-story-form-button">
     </form>
 </div>
+{% else %}
+<div>Please Login / Sign up to Create Story</div>
+{% endif %}
 
 {% endblock %}

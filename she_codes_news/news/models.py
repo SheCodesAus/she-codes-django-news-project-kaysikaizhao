@@ -1,3 +1,4 @@
+from ssl import Options
 from django.db import models
 from django.contrib.auth import get_user_model
 
@@ -9,4 +10,4 @@ class NewsStory(models.Model):
     )
     pub_date = models.DateTimeField()
     content = models.TextField()
-
+    image_url = models.URLField(max_length=1024, default="https://picsum.photos/600")
