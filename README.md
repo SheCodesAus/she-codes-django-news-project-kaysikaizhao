@@ -9,6 +9,7 @@ Welcome! The Repository of Kay's Django Project 👋
 ## Submission
 - A link to the repository: ✨https://github.com/SheCodesAus/she-codes-django-news-project-kaysikaizhao✨
 - A link to Heruko: ✨https://dashboard.heroku.com/apps/she-codes-django-project✨
+- A folder named “Screehshots” can be found in the repository.
 
 ## Requirements
 Part 1
