@@ -10,4 +10,4 @@ class NewsStory(models.Model):
     )
     pub_date = models.DateTimeField()
     content = models.TextField()
-    image_url = models.URLField(max_length=1024, default="https://picsum.photos/600")
+    image_url = models.URLField(max_length=2048, default="https://picsum.photos/600")

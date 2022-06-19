@@ -1,0 +1,21 @@
+{% extends "base.html" %} 
+{% load static %}
+{% load bootstrap %}
+
+{% block stylesheets %}
+<link rel="stylesheet" type="text/css" href="{% static 'news/styles.css' %}">
+{% endblock %}
+
+{% block content %} 
+
+<h2>View Stories by Author</h2>
+
+<ul>
+    {% for author in filter.qs %}
+    <li>
+        <a href="{% url 'news:author' username.id %}">{{ story.username }}</a>
+    </li>
+    {% endfor %}
+</ul>
+
+{% endblock %}
