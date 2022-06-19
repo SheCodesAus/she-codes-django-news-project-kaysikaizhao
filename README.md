@@ -8,12 +8,7 @@ The repository of Kay's portfolio 👋
 
 ## Submission
 - A link to the repository: ✨https://github.com/SheCodesAus/she-codes-django-news-project-kaysikaizhao✨
-- A folder named "Screehshots" can be found in the repository
-  - Home page (includes animations)
-  - About
-  - Blog - Cat, Code, Cook (includes animations)
-  - Contact
-  - Media queries
+- A link to Heruko: ✨https://dashboard.heroku.com/apps/she-codes-django-project✨
 
 ## Requirements
 Part 1
