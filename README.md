@@ -1,5 +1,5 @@
 # She Codes Plus Django Project
-The repository of Kay's portfolio 👋
+Welcome! The Repository of Kay's Django Project 👋
 
 ## Overview
 - Submission
